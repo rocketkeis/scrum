@@ -50,7 +50,7 @@ Refer [HERE](team-processes.md). *To be refined as you go through iterations.*
 
 ## Collaboration
 
-  * Team PDL - email@dxc.com *(SM to request for this)*
+  * Team PDL - email@domain.com *(SM to request for this)*
   * MS Teams *(link to your team)*
   * Jira - url *(link to your project)*
   * GitHub - orgname/project-repo *(link to your repo)*

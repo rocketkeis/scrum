@@ -24,3 +24,7 @@ This is a project template for an Agile Scrum project.
       * Testing
       * Deployment
       * Operations
+
+## References
+
+  * [Personal Agile Scrum Notes](https://rocketkeis.github.io/kkb/agilescrum/)
