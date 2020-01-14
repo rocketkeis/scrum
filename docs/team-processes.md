@@ -33,16 +33,62 @@
 
 ### Release Planning
 
+  * *TBD*
+
 ### Backlog Refinement
+
+  * PO and Team sets aside time for backlog refinement to prepare for Sprint Planning.
+  * Output: User Stories in the Product Backlog to be discussed in the Sprint Planning
 
 ### Sprint Planning
 
+  * SM facilitates the Sprint Planning.
+  * PO shares the goal in mind, highlighting if there are any expectations of or demos to Stakeholders.
+  * PO/BA discusses the user stories. Team sizes the user stories using poker planning.
+  * Team raises if there are other user stories for tech backlog items or retrospective items that need to be handled in the sprint.
+  * PO and Team agrees on the sprint goal and the user stories to be included in the Sprint.
+  * SM notes the team's availability during the sprint, also highlighting any holidays.
+  * Team creates tasks for the user stories and identifies who will do what.
+  * Output: Items captured in the [Sprint Info Page](sprints/sprint-info-template.md), and initial numbers in the [Sprint Data Page](sprint-data.md)
+
 ### Daily Scrum
+
+  * SM facilitates the Daily Scrum.
+  * SM/Team finalizes on which approach to use -- [Person-by-person or story-by-story](https://www.mountaingoatsoftware.com/blog/should-the-daily-standup-be-person-by-person-or-story-by-story).
 
 ### User Story Workflow
 
+  * PO creates user stories into the Product Backlog. Team can also create user stories and align it with PO.
+  * PO and Team refines user stories during Backlog Refinement, and through other needed ad hoc discussions.
+  * Team sizes and creates plans (through tasks and identification of owners) for the implementation of the user stories during Sprint Planning.
+  * At the start, user story state is ```TO DO```.
+  * Once the Team starts working on the user story, it's updated to ```IN PROGRESS``` usually by the Dev.
+  * Once the Dev confirms that it's ready for testing in the TEST environment, Dev updates state to ```FOR TESTING```.
+  * Once the Tester confirms that it's ready for review in the TEST environment, Tester updates state to ```FOR REVIEW```.
+      * Testers assess bugs they find while testing the user story.
+      * If acceptance criteria can't be met, depending on how big the user story is, they can either just track via the user story OR create a Bug Report.
+      * Bug Reports are assigned to the Dev working on the user story. No need to size them. They follow a similar workflow, except that it doesn't need to go to the PO for review.
+      * If the Team is on the fence about the bug found, they can discuss. Outcomes could be: align not to fix, OR create a bug report for it to be fixed within the Sprint, OR create a new user story for it in the product backlog.
+      * If user story has bugs to be fixed, Tester sets state to ```FOR FIXING```. Bugs will need to be fixed by Dev and verified by Tester to mark the bug as ```DONE```.
+  * Team conducts a demo to the PO. Once it's ok, state is updated to ```DONE```. *Depending on how willing the PO is, alternative is for PO to access the application directly to review the user story.*
+      * If it's not OK, Team can: create a bug report for it to be fixed within the Sprint, OR create a new user story in the product backlog.
+      * If user story has bugs to be fixed, PO sets state to ```FOR FIXING```. Bugs will need to be fixed by Dev and verified by Tester, and regression testing has to be done by the Tester before passing back to PO ```FOR REVIEW```.
+  * Team conducts a demo to Stakeholders during the Sprint Review.
+
 ### Sprint Review
 
-### Sprint Retrospectives
+  * SM facilitates the Sprint Review.
+  * Check against the Sprint Goal -- what was and wasn't accomplished.
+  * Team demos the completed user stories to Stakeholders for feedback.
+  * Output: Updates to the [Sprint Info Page](sprints/sprint-info-template.md) and [Sprint Data Page](sprint-data.md)
+
+### Sprint Retrospective
+
+  * SM facilitates the Sprint Retrospective.
+  * Output: Action items for improvement, Retro notes in the [Sprint Info Page](sprints/sprint-info-template.md)
 
 ### Project Reporting
+
+  * SM facilitates a regular touch base with the Stakeholders. *Finalize cadence.*
+  * SM prepares a regular project status report emailed to Team and Stakeholders. *Finalize cadence.*
+  * Output: Meeting Minutes, Project Status Report pages and emails
