@@ -31,6 +31,7 @@ This is a project template for an Agile Scrum project.
 +-- modules/                      #summarizes app details
 |   +-- module-1/
 |   +-- module-2/
++-- glossary.md
 
 +-- sprints.md
 +-- sprints/
