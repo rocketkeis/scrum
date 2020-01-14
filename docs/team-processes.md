@@ -33,11 +33,14 @@
 
 ### Release Planning
 
-  * *TBD*
+  * SM facilitates the Release Planning.
+  * Client PO and Scrum Team work together on user story mapping.
+  * Output: Prioritized epics and user stories, to be used by PO/Team in creating user stories
 
 ### Backlog Refinement
 
   * PO and Team sets aside time for backlog refinement to prepare for Sprint Planning.
+  * Optional: Client PO is included in backlog refinement. Otherwise, PO serves as Proxy.
   * Output: User Stories in the Product Backlog to be discussed in the Sprint Planning
 
 ### Sprint Planning
