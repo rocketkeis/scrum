@@ -1,18 +1,10 @@
 # Project Summer
 
-## Links
-
   * [Scope](scope.md)
   * [Sprints](sprints.md)
   * [Sprint Data](sprint-data.md)
   * [Team Processes](team-processes.md)
   * [Working Agreements](working-agreements.md)
-  * Other pages *(reorg as folders if more than 1 file)*
-      * Design
-      * Development
-      * Testing
-      * Deployment
-      * Operations
 
 ## Background
 

@@ -17,13 +17,43 @@ This is a project template for an Agile Scrum project.
       * Update the [Sprint Data Page](docs/sprint-data.md).
 
 
-  5. As needed, create corresponding files or folders for the following:
+  5. As needed, create corresponding files or folders for the following - linking accordingly to the [Project Home Page](docs/index.md) for each item that should easily be accessible from the project home page.
 
-      * Design
-      * Development
-      * Testing
-      * Deployment
-      * Operations
+## Resulting Project Documentation Outline
+
+```
+@repo
++-- index.md                      #project one-pager
++-- team-processes.md
++-- working-agreements.md
+
++-- scope.md
++-- modules/                      #summarizes app details
+|   +-- module-1/
+|   +-- module-2/
+
++-- sprints.md
++-- sprints/
+|   +-- sprint-info-template.md
+|   +-- proj-sprint-001.md
+|   +-- proj-sprint-002.md
+
++-- team/
+|   +-- onboarding/
+|   +-- pm/
+|       +-- DAIR
+|       +-- Decision Logs
+|       +-- Request Templates
+|       +-- Reports
+|   +-- ux/
+|   +-- design/
+|   +-- dev/
+|   +-- test/
+|   +-- deploy/
+|   +-- ops/
+
++-- minutes/
+```
 
 ## References
 
