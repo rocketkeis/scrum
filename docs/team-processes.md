@@ -61,6 +61,8 @@
 
 ### User Story Workflow
 
+  ![Workflow](assets/workflow.png)
+
   * PO creates user stories into the Product Backlog. Team can also create user stories and align it with PO.
   * PO and Team refines user stories during Backlog Refinement, and through other needed ad hoc discussions.
   * Team sizes and creates plans (through tasks and identification of owners) for the implementation of the user stories during Sprint Planning.
@@ -73,16 +75,18 @@
       * Bug Reports are assigned to the Dev working on the user story. No need to size them. They follow a similar workflow, except that it doesn't need to go to the PO for review.
       * If the Team is on the fence about the bug found, they can discuss. Outcomes could be: align not to fix, OR create a bug report for it to be fixed within the Sprint, OR create a new user story for it in the product backlog.
       * If user story has bugs to be fixed, Tester sets state to ```FOR FIXING```. Bugs will need to be fixed by Dev and verified by Tester to mark the bug as ```DONE```.
-  * Team conducts a demo to the PO. Once it's ok, state is updated to ```DONE```. *Depending on how willing the PO is, alternative is for PO to access the application directly to review the user story.*
+  * Once the PO accepts the user story, the state is updated to ```FOR DEMO```. Note that the PO can either review the user story directly in the provided environment, or request the team to demo it to her.
       * If it's not OK, Team can: create a bug report for it to be fixed within the Sprint, OR create a new user story in the product backlog.
       * If user story has bugs to be fixed, PO sets state to ```FOR FIXING```. Bugs will need to be fixed by Dev and verified by Tester, and regression testing has to be done by the Tester before passing back to PO ```FOR REVIEW```.
-  * Team conducts a demo to Stakeholders during the Sprint Review.
+  * PO arranges for a demo to the Client PO to cover the user stories that are already ready for demo. *This is not limited to the Sprint Review at the end of the sprint.*
+  * Once the Client PO accepts the user story, the state is updated to ```DONE```. Similar to the when the PO reviews the user story, state can be reverted back to ```FOR FIXING``` if there's an item that needs to be handled within the sprint.
 
 ### Sprint Review
 
   * SM facilitates the Sprint Review.
   * Check against the Sprint Goal -- what was and wasn't accomplished.
-  * Team demos the completed user stories to Stakeholders for feedback.
+  * Team recaps user stories that were demoed to the Client PO, and uses this time to conduct any other needed demos.
+  * Team can also conduct demo of the completed user stories to other Stakeholders for feedback.
   * Output: Updates to the [Sprint Info Page](sprints/sprint-info-template.md) and [Sprint Data Page](sprint-data.md)
 
 ### Sprint Retrospective
