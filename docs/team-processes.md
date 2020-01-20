@@ -31,6 +31,31 @@
 
 ## Processes and Workflows
 
+| Sample Flow        |   |   |   |   |   |   |   |   |
+| -                  | - | - | - | - | - | - | - | - |
+| Project Initiation | x |
+| Release Planning   |   | x |
+| Sprint 1           |   |   | x |
+| Sprint 2           |   |   |   | x |
+| Release Planning   |   |   |   |   | x |
+| Sprint 3           |   |   |   |   |   | x |
+| Sprint 4           |   |   |   |   |   |   | x |
+| ...                |   |   |   |   |   |   |   | x |
+
+### Project Initiation
+
+  * Hand-over from the Solutioning Team (if available)
+  * Project Kick-off
+      * Introduction of Scrum Team and Client Stakeholders
+      * High-level alignment on what's going to be built
+      * High-level alignment on methodology
+      * High-level timeline and what are the immediate next steps
+  * PO, SM, Tech Lead to work with Client PO
+      * Product Vision, high-level roadmap
+      * Capture known risks, assumptions and dependencies
+  * SM to facilitate finalizing these working agreements, cadences, definition of done, etc. with the Scrum Team. PO to align these with Client PO.
+  * Tech Lead to initiate discussions and setup of development prerequisites (framework, tooling, coding standards, etc).
+
 ### Release Planning
 
   * SM facilitates the Release Planning.
