@@ -1,6 +1,9 @@
 # README
 
-This is a project template for an Agile Scrum project.
+This is a project template for an Agile Scrum project. Assuming:
+
+  * 3-week sprints
+  * Scrum team has an "internal" Product Owner
 
 ## Getting Started
 

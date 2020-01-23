@@ -12,6 +12,12 @@
   * Scrum Master
   * Development Team
 
+## Customer Stakeholders
+
+  * Program Sponsor
+  * Customer Product Owner
+  * Customer Technology Representative
+
 ## Scrum Events
 
   * Sprint Planning
@@ -46,31 +52,34 @@
 
   * Hand-over from the Solutioning Team (if available)
   * Project Kick-off
-      * Introduction of Scrum Team and Client Stakeholders
+      * Introduction of Scrum Team and Customer Stakeholders
       * High-level alignment on what's going to be built
       * High-level alignment on methodology
       * High-level timeline and what are the immediate next steps
-  * PO, SM, Tech Lead to work with Client PO
+  * PO, SM, Tech Lead to work with Customer PO
       * Product Vision, high-level roadmap
       * Capture known risks, assumptions and dependencies
-  * SM to facilitate finalizing these working agreements, cadences, definition of done, etc. with the Scrum Team. PO to align these with Client PO.
-  * Tech Lead to initiate discussions and setup of development prerequisites (framework, tooling, coding standards, etc).
+  * SM to facilitate finalizing these working agreements, cadences, definition of done, etc. with the Scrum Team. PO to align these with Customer PO.
+  * Tech Lead to initiate discussions and setup of development prerequisites (framework, tooling, coding standards, etc). Consult with Customer Technology Representative as needed.
 
 ### Release Planning
 
   * SM facilitates the Release Planning.
-  * Client PO and Scrum Team work together on user story mapping.
+  * Customer PO and Scrum Team work together on user story mapping.
   * Output: Prioritized epics and user stories, to be used by PO/Team in creating user stories
+  * For reporting: PO works with Customer PO in documenting the high-level plans to be shared with Program Sponsor.
 
 ### Backlog Refinement
 
   * PO and Team sets aside time for backlog refinement to prepare for Sprint Planning.
-  * Optional: Client PO is included in backlog refinement. Otherwise, PO serves as Proxy.
+  * Optional: Customer PO is included in backlog refinement. Otherwise, PO serves as Proxy.
+  * As needed, Scrum Team to do ad hoc consultations to Customer PO and/or Business Technology Representative.
   * Output: User Stories in the Product Backlog to be discussed in the Sprint Planning
 
 ### Sprint Planning
 
   * SM facilitates the Sprint Planning.
+  * Optional: Customer PO is included in Sprint Planning. Otherwise, PO serves as Proxy.
   * PO shares the goal in mind, highlighting if there are any expectations of or demos to Stakeholders.
   * PO/BA discusses the user stories. Team sizes the user stories using poker planning.
   * Team raises if there are other user stories for tech backlog items or retrospective items that need to be handled in the sprint.
@@ -78,6 +87,7 @@
   * SM notes the team's availability during the sprint, also highlighting any holidays.
   * Team creates tasks for the user stories and identifies who will do what.
   * Output: Items captured in the [Sprint Info Page](sprints/sprint-info-template.md), and initial numbers in the [Sprint Data Page](sprint-data.md)
+  * For reporting: SM recaps to Scrum Team and Customer PO via email. *TBD: if other recipients are needed*
 
 ### Daily Scrum
 
@@ -103,24 +113,39 @@
   * Once the PO accepts the user story, the state is updated to ```FOR DEMO```. Note that the PO can either review the user story directly in the provided environment, or request the team to demo it to her.
       * If it's not OK, Team can: create a bug report for it to be fixed within the Sprint, OR create a new user story in the product backlog.
       * If user story has bugs to be fixed, PO sets state to ```FOR FIXING```. Bugs will need to be fixed by Dev and verified by Tester, and regression testing has to be done by the Tester before passing back to PO ```FOR REVIEW```.
-  * PO arranges for a demo to the Client PO to cover the user stories that are already ready for demo. *This is not limited to the Sprint Review at the end of the sprint.*
-  * Once the Client PO accepts the user story, the state is updated to ```DONE```. Similar to the when the PO reviews the user story, state can be reverted back to ```FOR FIXING``` if there's an item that needs to be handled within the sprint.
+  * PO arranges for a demo to the Customer PO to cover the user stories that are already ready for demo. *This is not limited to the Sprint Review at the end of the sprint.*
+  * Once the Customer PO accepts the user story, the state is updated to ```DONE```. Similar to the when the PO reviews the user story, state can be reverted back to ```FOR FIXING``` if there's an item that needs to be handled within the sprint.
 
 ### Sprint Review
 
   * SM facilitates the Sprint Review.
   * Check against the Sprint Goal -- what was and wasn't accomplished.
-  * Team recaps user stories that were demoed to the Client PO, and uses this time to conduct any other needed demos.
-  * Team can also conduct demo of the completed user stories to other Stakeholders for feedback.
+  * Team recaps user stories that were demoed to the Customer PO, and uses this time to conduct any other needed demos.
+  * Team can also conduct demo of the completed user stories to other stakeholders for feedback.
   * Output: Updates to the [Sprint Info Page](sprints/sprint-info-template.md) and [Sprint Data Page](sprint-data.md)
+  * For reporting: SM recaps to Scrum Team and Customer PO via email. *TBD: if other recipients are needed*
 
 ### Sprint Retrospective
 
   * SM facilitates the Sprint Retrospective.
+  * Optional: Customer PO is included in the Sprint Retrospective.
   * Output: Action items for improvement, Retro notes in the [Sprint Info Page](sprints/sprint-info-template.md)
 
 ### Project Reporting
 
-  * SM facilitates a regular touch base with the Stakeholders. *Finalize cadence.*
-  * SM prepares a regular project status report emailed to Team and Stakeholders. *Finalize cadence.*
+  * For customer: SM facilitates a regular touch base with the stakeholders. *TBD: F2F or email, cadence e.g., monthly status update meeting*
+  * For internal: SM facilitates a regular touch base with the stakeholders. *TBD: Email or F2F, cadence e.g., email status report every 2 weeks*
   * Output: Meeting Minutes, Project Status Report pages and emails
+
+## Summary of Events
+
+Stakeholders primarily considered for this table include the Customer PO and the Scrum Team.
+
+| Event | Required | Optional | Est Duration | Output |
+|-|-|-|-|-|
+| Release Planning | Customer PO, Scrum Team | | 6 hrs | Prioritized epics and user stories |
+| Backlog Refinement | Customer PO, PO, Tech Lead, Dev, Tester | | 3 hrs | User Stories in the Product Backlog |
+| Sprint Planning | Scrum Team | Customer PO | 6 hrs | Sprint Goal, Sprint Backlog, Sprint Info Page, Sprint Data Page update |
+| Daily Scrum | Scrum Team | Customer PO, PO | 15 mins | |
+| Sprint Review | Customer PO, Scrum Team | Program Sponsor, Customer Technology Representative | 3 hrs | Updates to Sprint Info and Sprint Data pages |
+| Sprint Retrospective | Scrum Team | Customer PO | 3 hrs | Action items, learnings, retrospective notes in Sprint Info Page |
