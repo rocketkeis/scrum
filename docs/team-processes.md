@@ -88,6 +88,7 @@
   * Dev Team creates tasks for the user stories and identifies who will do what.
   * Output:
     * Sprint Goal, Sprint Backlog, Schedule (sprint duration, milestones, holidays), Team (members, availability)
+    * Note: Sprint Backlog includes committed user stories, plus the plan for delivering (tasks, owners)
     * [Sprint Info Page](sprints/sprint-info-template.md), and initial numbers in the [Sprint Data Page](sprint-data.md)
   * For reporting: SM recaps to Scrum Team and Customer PO via email. *TBD: if other recipients are needed*
 
@@ -134,7 +135,7 @@
 
   * SM facilitates the Sprint Retrospective.
   * Optional: Customer PO is included in the Sprint Retrospective.
-  * Output: Action items for improvement, Retro notes in the [Sprint Info Page](sprints/sprint-info-template.md)
+  * Output: Action items for improvement, learnings, Retro notes in the [Sprint Info Page](sprints/sprint-info-template.md)
 
 ### Project Reporting
 
@@ -150,7 +151,7 @@ Stakeholders primarily considered for this table include the Customer PO and the
 |-|-|-|-|-|
 | Release Planning | Customer PO, Scrum Team | | 6 hrs | Prioritized epics and user stories |
 | Backlog Refinement | Customer PO, PO, Developer, Tester | | 3 hrs | User Stories in the Product Backlog |
-| Sprint Planning | Scrum Team | Customer PO | 6 hrs | Sprint Goal, Sprint Backlog, Schedule, Team, Sprint Info Page, Sprint Data Page update |
-| Daily Scrum | SM, Dev Team | Customer PO, PO | 15 mins | |
-| Sprint Review | Customer PO, Scrum Team | Program Sponsor, Customer Technology Representative | 3 hrs | Information on completed user stories, Closure of Sprint, Updates to Sprint Info and Sprint Data pages |
-| Sprint Retrospective | Scrum Team | Customer PO | 3 hrs | Action items, learnings, retrospective notes in Sprint Info Page |
+| Sprint Planning | Scrum Team | Customer PO | 6 hrs | Sprint Goal, Sprint Backlog, Schedule, Team; <p>Sprint Info Page, Sprint Data Page update |
+| Daily Scrum | SM, Dev Team | Customer PO, PO | 15 mins | Updates on progress, raised impediments (if any) |
+| Sprint Review | Customer PO, Scrum Team | Program Sponsor, Customer Technology Representative | 3 hrs | Information on completed user stories, Closure of the Sprint; <p>Updates to Sprint Info and Sprint Data pages |
+| Sprint Retrospective | Scrum Team | Customer PO | 3 hrs | Action items, learnings, <p>Retro notes in Sprint Info Page |
