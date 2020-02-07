@@ -1,6 +1,7 @@
 # Project Summer
 
   * [Scope](scope.md)
+  * [Application Documentation](modules/index.md)
   * [Glossary](glossary.md)
   * [Sprints](sprints.md)
   * [Sprint Data](sprint-data.md)
