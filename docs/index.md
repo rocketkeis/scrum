@@ -21,6 +21,10 @@
 
 *Each iteration will have a corresponding Sprint Info page which will be linked to [HERE](sprints.md).*
 
+## Timeline
+
+*Describe the high-level timeline. Can attach image of high level timeline in format timeline-YYYYMMDD-descriptive-text.jpg*
+
 ## Team Processes
 
 Refer [HERE](team-processes.md). *To be refined as you go through iterations.*
