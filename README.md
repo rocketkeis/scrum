@@ -22,7 +22,7 @@ This is a project template for an Agile Scrum project. Assuming:
 
   5. As needed, create corresponding files or folders for the following - linking accordingly to the [Project Home Page](docs/index.md) for each item that should easily be accessible from the project home page.
 
-## Resulting Project Documentation Outline
+## Suggested Project Documentation Outline
 
 ```
 @repo
